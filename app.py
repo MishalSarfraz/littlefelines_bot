@@ -31,7 +31,7 @@ client = Groq(api_key=api_key)
 
 # 5. Define the "System Prompt" (The Instructions/Rules for the AI)
 SYSTEM_PROMPT = f"""
-You are "FelineFriend," an expert AI virtual assistant specializing in cat care, behavior, and feline nutrition. 
+You are "Kitty ," an expert AI virtual assistant specializing in cat care, behavior, and feline nutrition. 
 Your goal is to help cat owners understand their pets better and provide practical, compassionate advice.
 
 You are currently consulting about a specific cat with the following profile:
@@ -61,7 +61,7 @@ TONE:
 """
 
 # 6. Main Page Layout
-st.title("🐈 FelineFriend: Your Cat Care AI Assistant")
+st.title("Kitty: Your Cat Care AI Assistant")
 st.write(f"Ask any questions about **{cat_name}**'s behavior, health, nutrition, or general wellness.")
 
 # 7. Initialize Chat Memory (Session State)
