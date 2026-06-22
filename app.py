@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # 2. Configure the web page layout
-st.set_page_config(page_title="FelineFriend AI", page_icon="🐈", layout="wide")
+st.set_page_config(page_title="Kitty AI", page_icon="", layout="wide")
 
 # 3. Sidebar: Gather Information about the Cat
 with st.sidebar:
