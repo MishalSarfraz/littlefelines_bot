@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#bca085"          # Warm tan accent matching your GoDaddy buttons
+backgroundColor = "#fdfbf7"       # Soft off-white / warm cream background
+secondaryBackgroundColor = "#f5ebd9" # Sand/beige sidebar background
+textColor = "#2c3e50"             # Dark slate text for high readability
+font = "sans serif"
